@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <div style="display: flex">
+    <!-- <div class="sidepanel">okkkk</div> -->
+    <ul>
+  {{ range .Site.Taxonomies.categories }}
+    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+  {{ end }}
+</ul>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  
+  
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

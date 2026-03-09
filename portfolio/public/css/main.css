@@ -1,0 +1,52 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  
+}
+
+header {
+  border: 1px solid #222;
+  text-align: center;
+}
+
+footer {
+  border: 1px solid #222;
+}
+
+main {
+  border: 1px solid #222;
+  margin: 2rem;
+  width: 100%;
+  size-adjust: inherit;
+  border-radius: 25px;
+  background: rgb(32, 13, 7);
+}
+
+.window {
+  margin: 1rem;
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+.content {
+  margin: 1rem;
+  background-color: aqua;
+}
+
+.sidepanel {
+    height: 100%; 
+    width: 25%; 
+    position: relative; 
+    border: 1px solid #222;
+    left: 0;
+    background-color: #ffebf2; 
+    overflow-x: hidden; 
+    padding-top: 40px; 
+}
