@@ -58,7 +58,7 @@ a {
   margin: 2rem;
   margin-right: 0;
   width: 15%;
-  border: 1px solid #222;
+  
   overflow-x: hidden; 
   padding-top: 40px; 
 
@@ -70,7 +70,7 @@ a {
   display: block;
   position: relative;
   padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
-  border-left: 2px solid #ddd;
+  border-left: 2px solid #e9afa7;
 }
 
 .sidepanel ul {
@@ -78,9 +78,6 @@ a {
   padding-left: 0;
 }
 
-.sidepanel ul li {
-  border-left: 2px solid #dddddd;
-}
 
 .sidepanel ul li:last-child {
   border-color: transparent;
@@ -94,7 +91,8 @@ a {
   left: -2px;
   width: calc(var(--spacing) + 2px);
   height: calc(var(--spacing) + 1px);
-  border: solid #ddd;
+  border: solid #f5d7cd;
+  border-bottom-left-radius: 25%;
   border-width: 0 0 2px 2px;
 }
 
@@ -125,13 +123,20 @@ a {
   left: calc(var(--spacing) - var(--radius) - 1px);
   width: calc(2 * var(--radius));
   height: calc(2 * var(--radius));
-  background: url("folder-closed.png")
 }
 
 .sidepanel summary::before {
   z-index: 1;
-  background-size: 10%;
-  background: url("expand-collapse.svg");
+}
+.sidepanel details > summary::before {
+  background-size: cover;
+  background-image: url("folder-closed.svg");
+  
+}
+.sidepanel details[open] > summary::before {
+  background-size: cover;
+  background-image: url("folder-opened.svg");
+  
 }
 
 /* .sidepanel details[open] > summary::before {
