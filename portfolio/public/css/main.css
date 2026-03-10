@@ -1,9 +1,18 @@
+@font-face {
+    font-family: "Climate Crisis";
+    src: url('fonts/ClimateCrisis-Regular-VariableFont_YEAR.woff') format('truetype');
+}
+
+
 body {
-  color: #222;
+  padding: 0;
+  background-color: antiquewhite;
+  color: #2c1b17;
   font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
-  
+  font-family: "Nunito", Times, serif;
+  font-size: larger;
 }
 
 header {
@@ -13,40 +22,122 @@ header {
 
 footer {
   border: 1px solid #222;
+  position:absolute;
+  width:100%;
+  bottom:0px;
 }
 
 main {
-  border: 1px solid #222;
+  
   margin: 2rem;
-  width: 100%;
+  margin-left: 0;
+  width: 75%;
   size-adjust: inherit;
   border-radius: 25px;
   background: rgb(32, 13, 7);
+  max-width: 75%;
 }
 
 .window {
   margin: 1rem;
   background-color: antiquewhite;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 a {
-  color: #00e;
+  color: rgb(80, 44, 207);
   text-decoration: none;
 }
 
 .content {
   margin: 1rem;
-  background-color: aqua;
+  
 }
 
 .sidepanel {
-    height: 100%; 
-    width: 25%; 
-    position: relative; 
-    border: 1px solid #222;
-    left: 0;
-    background-color: #ffebf2; 
-    overflow-x: hidden; 
-    padding-top: 40px; 
+  margin: 2rem;
+  margin-right: 0;
+  width: 15%;
+  border: 1px solid #222;
+  overflow-x: hidden; 
+  padding-top: 40px; 
+
+  --spacing: 1.5rem;
+  --radius: 10px;
+}
+
+.sidepanel li {
+  display: block;
+  position: relative;
+  padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+  border-left: 2px solid #ddd;
+}
+
+.sidepanel ul {
+  margin-left: calc(var(--radius) - var(--spacing));
+  padding-left: 0;
+}
+
+.sidepanel ul li {
+  border-left: 2px solid #dddddd;
+}
+
+.sidepanel ul li:last-child {
+  border-color: transparent;
+}
+
+.sidepanel ul li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(var(--spacing) / -2);
+  left: -2px;
+  width: calc(var(--spacing) + 2px);
+  height: calc(var(--spacing) + 1px);
+  border: solid #ddd;
+  border-width: 0 0 2px 2px;
+}
+
+.sidepanel summary {
+  display: block;
+  cursor: pointer;
+}
+
+.sidepanel summary::marker,
+.sidepanel summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidepanel summary:focus {
+  outline: none;
+}
+
+.sidepanel summary:focus-visible {
+  outline: 1px dotted #000;
+}
+
+.sidepanel li::after,
+.sidepanel summary::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(var(--spacing) / 2 - var(--radius));
+  left: calc(var(--spacing) - var(--radius) - 1px);
+  width: calc(2 * var(--radius));
+  height: calc(2 * var(--radius));
+  background: url("folder-closed.png")
+}
+
+.sidepanel summary::before {
+  z-index: 1;
+  background-size: 10%;
+  background: url("expand-collapse.svg");
+}
+
+/* .sidepanel details[open] > summary::before {
+  background-position: calc(-2 * var(--radius)) 0;
+} */
+
+h1 {
+  font-family: "Climate Crisis", sans-serif;
 }

@@ -23,10 +23,10 @@
       <description></description>
     </item>
     <item>
-      <title>Bog</title>
-      <link>http://localhost:1313/categories/bog/</link>
+      <title>Blog</title>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/categories/bog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
     </item>
   </channel>

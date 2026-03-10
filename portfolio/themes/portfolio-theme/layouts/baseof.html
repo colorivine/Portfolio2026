@@ -7,13 +7,23 @@
   <header>
     {{ partial "header.html" . }}
   </header>
-  <div style="display: flex">
-    <!-- <div class="sidepanel">okkkk</div> -->
+  <div style="display: flex; align-items: start; margin: auto; max-width: 1200px;">
+    <div class="sidepanel">Home
     <ul>
-  {{ range .Site.Taxonomies.categories }}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
-  {{ end }}
-</ul>
+      {{ range .Site.Taxonomies.categories }}
+      <li>  
+        <details> 
+          <summary href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</summary>
+        <ul>
+        {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+        </details>
+      {{ end }}
+    </ul>
+    </div>
+    
     <main>
       {{ block "main" . }}{{ end }}
     </main>
