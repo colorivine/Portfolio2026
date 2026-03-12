@@ -1,4 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Victor Touroul Portfolio'
+title = 'Victor Touroul'
 theme = 'portfolio-theme'
+
+[taxonomies]
+  category = 'categories'

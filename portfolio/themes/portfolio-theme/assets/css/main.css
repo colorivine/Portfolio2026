@@ -3,8 +3,17 @@
     src: url('fonts/ClimateCrisis-Regular-VariableFont_YEAR.woff') format('truetype');
 }
 
+@font-face {
+    font-family: "Awe mono";
+    src: url("fonts/Awe Mono Gold.woff") format('truetype');
+}
+
+* {
+  scrollbar-color: #b68f7d rgba(255, 255, 255, 0);
+}
 
 body {
+  overflow-y: scroll;
   padding: 0;
   background-color: antiquewhite;
   color: #2c1b17;
@@ -16,21 +25,28 @@ body {
 }
 
 header {
-  border: 1px solid #222;
+  color: #2c1b17;
+  margin: 1rem;
   text-align: center;
+  font-size: 200%;
+  font-family: "Awe mono", sans-serif;
 }
 
 footer {
   border: 1px solid #222;
-  position:absolute;
-  width:100%;
-  bottom:0px;
+  position : fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  max-height: 100px;
 }
 
 main {
-  
   margin: 2rem;
+  margin-top: 0;
   margin-left: 0;
+  margin-bottom: 0;
   width: 75%;
   size-adjust: inherit;
   border-radius: 25px;
@@ -40,24 +56,32 @@ main {
 
 .window {
   margin: 1rem;
+  margin-top: 0;
   background-color: antiquewhite;
   border-radius: 15px;
 }
 
-a {
-  color: rgb(80, 44, 207);
-  text-decoration: none;
+.pageBar {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.pageTitle {
+  
+  color: antiquewhite;
 }
 
 .content {
-  margin: 1rem;
+  padding: 1rem;
   
 }
+
 
 .sidepanel {
   margin: 2rem;
   margin-right: 0;
-  width: 15%;
+  width: 20%;
   
   overflow-x: hidden; 
   padding-top: 40px; 
@@ -65,24 +89,19 @@ a {
   --spacing: 1.5rem;
   --radius: 10px;
 }
-
 .sidepanel li {
   display: block;
   position: relative;
   padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
-  border-left: 2px solid #e9afa7;
+  border-left: 2px solid #f5d7cd;
 }
-
 .sidepanel ul {
   margin-left: calc(var(--radius) - var(--spacing));
   padding-left: 0;
 }
-
-
 .sidepanel ul li:last-child {
   border-color: transparent;
 }
-
 .sidepanel ul li::before {
   content: '';
   display: block;
@@ -95,25 +114,20 @@ a {
   border-bottom-left-radius: 25%;
   border-width: 0 0 2px 2px;
 }
-
 .sidepanel summary {
   display: block;
   cursor: pointer;
 }
-
 .sidepanel summary::marker,
 .sidepanel summary::-webkit-details-marker {
   display: none;
 }
-
 .sidepanel summary:focus {
   outline: none;
 }
-
 .sidepanel summary:focus-visible {
   outline: 1px dotted #000;
 }
-
 .sidepanel li::after,
 .sidepanel summary::before {
   content: '';
@@ -124,25 +138,39 @@ a {
   width: calc(2 * var(--radius));
   height: calc(2 * var(--radius));
 }
-
 .sidepanel summary::before {
   z-index: 1;
 }
 .sidepanel details > summary::before {
   background-size: cover;
   background-image: url("folder-closed.svg");
-  
 }
 .sidepanel details[open] > summary::before {
   background-size: cover;
   background-image: url("folder-opened.svg");
-  
 }
 
-/* .sidepanel details[open] > summary::before {
-  background-position: calc(-2 * var(--radius)) 0;
-} */
 
-h1 {
-  font-family: "Climate Crisis", sans-serif;
+
+a {
+  color: rgb(80, 44, 207);
+  text-decoration: none;
 }
+
+table {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid #b68f7d;
+  border-collapse: collapse;
+}
+th {
+  color: antiquewhite;
+  padding: 0.5rem;
+  background-color: #b68f7d;
+}
+td {
+  background-color: rgb(240, 222, 199);
+  border: 1px solid #b68f7d;
+  padding: 0.5rem;
+}
+

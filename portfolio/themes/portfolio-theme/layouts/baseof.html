@@ -7,13 +7,14 @@
   <header>
     {{ partial "header.html" . }}
   </header>
-  <div style="display: flex; align-items: start; margin: auto; max-width: 1200px;">
-    <div class="sidepanel">Home
+  <div style="display: flex; align-items: start; margin: auto; max-width: 1200px; margin-bottom: 100px;">
+    <div class="sidepanel">
+    <a href="/">Home</a>
     <ul>
       {{ range .Site.Taxonomies.categories }}
-      <li>  
+      <li>
         <details> 
-          <summary href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</summary>
+          <summary> <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> </summary>
         <ul>
         {{ range .Pages }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
