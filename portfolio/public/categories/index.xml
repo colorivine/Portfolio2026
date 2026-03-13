@@ -6,28 +6,28 @@
     <description>Recent content in Categories on Victor Touroul</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Games</title>
-      <link>http://localhost:1313/categories/games/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/categories/games/</guid>
-      <description>&lt;p&gt;Hewwo lord !&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/categories/projects/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/categories/projects/</guid>
-      <description>&lt;p&gt;Hewwo lord !&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Blog</title>
       <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
       <guid>http://localhost:1313/categories/blog/</guid>
-      <description>&lt;p&gt;Hewwo lord !&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some stuff&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>http://localhost:1313/categories/games/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/games/</guid>
+      <description>&lt;p&gt;Games you can play&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description>&lt;p&gt;Some projects i worked on&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

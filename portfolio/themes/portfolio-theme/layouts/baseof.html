@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+{{ $page := .Title }}
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -13,7 +14,11 @@
     <ul>
       {{ range .Site.Taxonomies.categories }}
       <li>
-        <details> 
+        {{if eq $page .Page.LinkTitle}} 
+          <details open> 
+        {{else}}
+          <details> 
+        {{end}}
           <summary> <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> </summary>
         <ul>
         {{ range .Pages }}

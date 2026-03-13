@@ -1,8 +1,25 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <div class="term">
+  <div class="termhead">
+  <h3>{{ .Title }}</h3>
   {{ .Content }}
-  <div>term</div>
+  </div>
+  <div class="cardgrid">
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="card" style="cursor: pointer;" onclick="window.location={{ .RelPermalink }};">
+      {{ with .Resources.GetMatch "vignette.*" }}
+        {{ with .Fill "100x100 webp" }}
+          <img class="cardimage" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+        {{ end }}
+      {{ end }}
+      <div class="cardtitle"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+      <div class="timeshort">
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := .Date | time.Format ":date_short" }}
+        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+      </div>
+    </div>
   {{ end }}
+  </div>
+  </div>
 {{ end }}

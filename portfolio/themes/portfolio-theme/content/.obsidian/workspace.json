@@ -6,7 +6,7 @@
       {
         "id": "6813d74ac6f82f4f",
         "type": "tabs",
-        "dimension": 43.01705756929638,
+        "dimension": 39.79713603818616,
         "children": [
           {
             "id": "acc7bff75f8a0264",
@@ -14,20 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/post-3/index.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "_index"
+            }
+          },
+          {
+            "id": "8b8f3ee92962b7dc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "posts/Pierre Qui Roule/vignette.png"
+              },
+              "icon": "lucide-image",
+              "title": "vignette"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d35f3dbee3c53429",
         "type": "tabs",
-        "dimension": 56.98294243070362,
+        "dimension": 60.20286396181385,
         "children": [
           {
             "id": "e3b1de83ff625c38",
@@ -198,8 +211,32 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "acc7bff75f8a0264",
+  "active": "8b8f3ee92962b7dc",
   "lastOpenFiles": [
+    "posts/Suro/index.md",
+    "posts/Pierre Qui Roule/index.md",
+    "posts/Lego Fez/index.md",
+    "posts/Haunted West/index.md",
+    "posts/Crocodile/index.md",
+    "posts/Champognon/index.md",
+    "posts/Adieu/index.md",
+    "posts/Champognon/vignette.png",
+    "posts/Adieu/vignette.png",
+    "_index.md",
+    "posts/Suro/vignette.png",
+    "posts/Suro",
+    "posts/Haunted West/vignette.png",
+    "posts/Haunted West",
+    "posts/Champognon/Sans titre.md",
+    "posts/Champognon",
+    "posts/Adieu",
+    "posts/Crocodile/vignette.png",
+    "posts/Crocodile",
+    "posts/Lego Fez/vignette.png",
+    "posts/Pierre Qui Roule/vignette.png",
+    "posts/post-2.md",
+    "posts/Lego Fez",
+    "posts/post-3/index.md",
     "categories/projects/_index.md",
     "categories/projects",
     "categories/Projects/_index.md",
@@ -209,14 +246,9 @@
     "categories/games",
     "categories/blog",
     "categories/Blog/_index.md",
-    "categories/Blog",
     "posts/post-3/bryce-canyon.jpg",
-    "posts/post-2.md",
     "categories/Games/_index.md",
-    "categories/Games",
-    "categories",
     "posts/post-1.md",
-    "posts/post-3/index.md",
     "Sans titre.canvas"
   ]
 }
