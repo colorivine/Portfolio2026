@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "_index"
             }
-          },
-          {
-            "id": "8b8f3ee92962b7dc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "posts/Pierre Qui Roule/vignette.png"
-              },
-              "icon": "lucide-image",
-              "title": "vignette"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d35f3dbee3c53429",
@@ -211,8 +198,17 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "8b8f3ee92962b7dc",
+  "active": "7cc665cca9a21b9e",
   "lastOpenFiles": [
+    "Sans titre 7.base",
+    "Sans titre 6.base",
+    "Sans titre 1.base",
+    "Sans titre 2.base",
+    "Sans titre 4.base",
+    "Sans titre 5.base",
+    "Sans titre 3.base",
+    "Sans titre.base",
+    "posts/Pierre Qui Roule/vignette.png",
     "posts/Suro/index.md",
     "posts/Pierre Qui Roule/index.md",
     "posts/Lego Fez/index.md",
@@ -229,22 +225,14 @@
     "posts/Haunted West",
     "posts/Champognon/Sans titre.md",
     "posts/Champognon",
-    "posts/Adieu",
     "posts/Crocodile/vignette.png",
-    "posts/Crocodile",
     "posts/Lego Fez/vignette.png",
-    "posts/Pierre Qui Roule/vignette.png",
     "posts/post-2.md",
-    "posts/Lego Fez",
     "posts/post-3/index.md",
     "categories/projects/_index.md",
-    "categories/projects",
     "categories/Projects/_index.md",
-    "categories/Projects",
     "categories/blog/_index.md",
     "categories/games/_index.md",
-    "categories/games",
-    "categories/blog",
     "categories/Blog/_index.md",
     "posts/post-3/bryce-canyon.jpg",
     "categories/Games/_index.md",

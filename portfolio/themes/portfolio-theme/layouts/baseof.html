@@ -22,7 +22,7 @@
           <summary> <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> </summary>
         <ul>
         {{ range .Pages }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        <li class="sublist" style="font-size: medium; padding-left: 1rem;"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
         {{ end }}
         </ul>
         </details>
