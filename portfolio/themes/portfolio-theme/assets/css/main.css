@@ -1,11 +1,17 @@
 @font-face {
-    font-family: "Climate Crisis";
-    src: url('fonts/ClimateCrisis-Regular-VariableFont_YEAR.woff') format('truetype');
+    font-family: "Awe mono";
+    src: url("fonts/Awe Mono Gold.woff") format('woff');
 }
 
 @font-face {
-    font-family: "Awe mono";
-    src: url("fonts/Awe Mono Gold.woff") format('truetype');
+    font-family: "Nunito";
+    src: url("fonts/Nunito-VariableFont_wght.ttf") format('truetype');
+    font-weight: 400;
+    font-variation-settings: "wght" 400;
+}
+
+@media (max-width: 600px) {
+  
 }
 
 * {
@@ -20,7 +26,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
-  font-family: "Nunito", Times, serif;
+  font-family: "Nunito";
   font-size: larger;
 }
 
@@ -52,11 +58,27 @@ main {
   max-width: 75%;
 }
 
+.maincontainer {
+  display: flex; 
+  align-items: start; 
+  margin: auto; 
+  max-width: 1200px; 
+  margin-bottom: 100px;
+  flex-direction: row;
+}
+
 .windowframe {
+  border-radius: 25px;
+  background-color: rgb(32, 13, 7);
+  overflow: hidden;
+  background-clip: border-box;
+}
+
+.windowframeimg {
   padding: 1rem;
   padding-top: 0.5rem;
-  border-radius: 25px;
-  background: rgb(32, 13, 7);
+  fill-opacity: 50%;
+  background-repeat: repeat;
 }
 
 .window {
@@ -82,7 +104,8 @@ main {
 }
 
 .pageTitle {
-  
+  font-size: x-large;
+  font-variation-settings: "wght" 800;
   color: antiquewhite;
 }
 
