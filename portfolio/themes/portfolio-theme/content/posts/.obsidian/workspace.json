@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "Lego Fez/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "index"
             }
           }
         ]
@@ -198,7 +198,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "7cc665cca9a21b9e",
+  "active": "acc7bff75f8a0264",
   "lastOpenFiles": [
     "Sans titre 7.base",
     "Sans titre 6.base",

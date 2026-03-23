@@ -12,7 +12,7 @@
           <img class="cardimage" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
         {{ end }}
       {{ end }}
-      <div class="cardtitle"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+      <div class="cardtitle">{{ .LinkTitle }}</div>
       <div class="timeshort">
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
         {{ $dateHuman := .Date | time.Format ":date_short" }}
