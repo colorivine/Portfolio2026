@@ -104,6 +104,15 @@ main {
   margin-right: 1rem;
 }
 
+.barTime {
+  font-size: x-large;
+  font-variation-settings: "wght" 600;
+  color: var(--bg_color);
+  text-align: end;
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
 .pageTitle {
   font-size: x-large;
   font-variation-settings: "wght" 800;

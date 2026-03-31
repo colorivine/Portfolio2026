@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Languages.First }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 {{ $page := .Title }}
 <head>
   {{ partial "head.html" . }}

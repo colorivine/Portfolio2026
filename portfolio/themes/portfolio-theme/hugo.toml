@@ -1,6 +1,22 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-US'
+languageCode = 'fr-FR'
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+disableLanguages = []
 title = 'Victor Touroul'
+
+[languages]
+  [languages.en]
+    label = 'English'
+    weight = 10
+    locale = 'en-US'
+
+  [languages.fr]
+    label = 'Français'
+    weight = 20
+    locale = 'fr-FR'
+
 
 [menus]
   [[menus.main]]
@@ -22,3 +38,4 @@ title = 'Victor Touroul'
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+

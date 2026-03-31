@@ -9,12 +9,14 @@
   <div class = "pageBar">
     <div class="barbutton"></div>
     <div class="pageTitle">{{ .Title }}</div>
+    <!-- {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "January 2006" }}
+    <time class="barTime" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
+    <time class="barTime">{{ time.Format "January 2006" .Date }}</time>
   </div>
   <div class = "window" >
       
-      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-      {{ $dateHuman := .Date | time.Format ":date_long" }}
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+      
       {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </div>
