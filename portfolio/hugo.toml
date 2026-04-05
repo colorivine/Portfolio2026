@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 
-defaultContentLanguage = 'fr'
+theme = 'portfolio-theme'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
 

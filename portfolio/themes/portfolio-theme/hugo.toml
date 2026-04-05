@@ -1,20 +1,19 @@
 baseURL = 'https://example.org/'
-languageCode = 'fr-FR'
-defaultContentLanguage = 'fr'
+
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
-disableLanguages = []
+
 title = 'Victor Touroul'
 
 [languages]
   [languages.en]
     label = 'English'
-    weight = 10
+    weight = 20
     locale = 'en-US'
 
   [languages.fr]
     label = 'Français'
-    weight = 20
+    weight = 10
     locale = 'fr-FR'
 
 
