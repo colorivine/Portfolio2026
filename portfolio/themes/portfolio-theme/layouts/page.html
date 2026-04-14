@@ -16,7 +16,7 @@
   </div>
   <div class = "window" >
       
-      
+      {{ partial "language-switcher.html" . }}
       {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </div>

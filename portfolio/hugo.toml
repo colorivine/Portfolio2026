@@ -1,21 +1,23 @@
 baseURL = 'https://example.org/'
 
 theme = 'portfolio-theme'
-defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = false
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 
 title = 'Victor Touroul'
 
 [languages]
   [languages.en]
+    contentDir = "content/en"
     label = 'English'
     weight = 10
     locale = 'en-US'
 
   [languages.fr]
+    contentDir = "content/fr"
     label = 'Français'
     weight = 20
-    locale = 'fr-FR'
+    locale = 'fr-fr'
 
 
 [menus]
@@ -39,3 +41,8 @@ title = 'Victor Touroul'
     extended = false
     min = '0.146.0'
 
+[markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+  [markup.goldmark.parser.attribute]
+    block = true

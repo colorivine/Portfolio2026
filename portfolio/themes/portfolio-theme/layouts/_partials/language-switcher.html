@@ -1,0 +1,12 @@
+
+{{ with .Page.Translations }}
+  <div>
+    {{ range . }}
+    
+    
+    <a class="languageSwitch" href="{{ .RelPermalink }}">switch to {{ .Language | upper}}</a>
+        
+    {{ end }}
+  </div>
+{{ end }}
+

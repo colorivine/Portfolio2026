@@ -1,29 +1,37 @@
 @font-face {
     font-family: "Awe mono";
-    src: url("fonts/Awe Mono Gold.woff") format('woff');
+    src: url("/fonts/Awe Mono Gold.woff") format('woff');
 }
 
 @font-face {
     font-family: "Nunito";
-    src: url("fonts/Nunito-VariableFont_wght.ttf") format('truetype');
+    src: url("/fonts/Nunito-VariableFont_wght.ttf") format('truetype');
     font-weight: 400;
     font-variation-settings: "wght" 400;
 }
 
 html, body {
-    cursor: url("cursor.ico"), default;
+    cursor: url("/icons/cursor.ico"), default;
 }
 
 * {
-  scrollbar-color: #b68f7d rgba(255, 255, 255, 0);
+  --bg_color: #faebd7;
+  --text_color : #2c1b17;
+  --accent_color : rgb(197, 92, 123);
+  --lightaccent_color : rgba(194, 80, 99, 0.397);
+  --lighttext_color : #f0dec7;
+  --medtext_color : #b68f7d;
+  scrollbar-color: var(--medtext_color) rgba(255, 255, 255, 0);
+}
+
+::-moz-selection {
+  background: var(--lightaccent_color);
+}
+::selection {
+  background: var(--lightaccent_color);
 }
 
 body {
-  --bg_color: antiquewhite;
-  --text_color : #2c1b17;
-  --accent_color : rgb(197, 92, 123);
-  --lighttext_color : #f0dec7;
-
   overflow-y: scroll;
   padding: 0;
   background-color: var(--bg_color);
@@ -189,11 +197,11 @@ main {
 }
 .sidepanel details > summary::before {
   background-size: cover;
-  background-image: url("folder-closed.svg");
+  background-image: url("/icons/folder-closed.svg");
 }
-.sidepanel details[open] > summary::before {
+.sidepanel details[open] *> summary::before {
   background-size: cover;
-  background-image: url("folder-opened.svg");
+  background-image: url("/icons/folder-opened.svg");
 }
 .sidepanel li{
   border-radius: 25px;
@@ -206,10 +214,10 @@ main {
   transition:.2s;
   background-color: var(--lighttext_color);
 }
-.sublist {
+.sidepanel.sublist {
   font-size: small;
 }
-.sublist::after {
+.sidepanel.sublist::after {
   width: 0;
   height: 0;
 }
@@ -288,8 +296,27 @@ td {
   color: #b68f7d;
 }
 
+a.languageSwitch {
+  color: var(--lightaccent_color);
+}
 
+figure {
+  margin : auto;
+  padding: auto;
+  width: 50%;
+  object-fit: contain;
+  font-size: medium;
+  text-align: center;
+}
+figcaption {
+  color: var(--medtext_color);
+  margin: 0;
+  padding: 0;
+}
 
+img {
+  max-width: 100%;
+}
 
 @media (max-width: 800px) {
   .maincontainer {

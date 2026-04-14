@@ -1,8 +1,5 @@
 baseURL = 'https://example.org/'
 
-defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = false
-
 title = 'Victor Touroul'
 
 [languages]

@@ -5,4 +5,4 @@ draft = false
 categories = ['Blog','Projects']
 +++
 
-Le projet "Dragon de Glace" est l'application concrète des compétences de level design d'une équipe de 3 level designers et 2 level artists. L'ambition était de créer une expérience équilibrée 
+Le projet "Dragon de Glace" est l'application concrète des compétences de level design d'une équipe de 3 level designers et ***2 level artists***. L'ambition était de créer une expérience équilibrée

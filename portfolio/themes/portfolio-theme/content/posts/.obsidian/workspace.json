@@ -6,31 +6,29 @@
       {
         "id": "6813d74ac6f82f4f",
         "type": "tabs",
-        "dimension": 39.79713603818616,
+        "dimension": 46.658711217183765,
         "children": [
           {
             "id": "acc7bff75f8a0264",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Lego Fez/index.md",
-                "mode": "source",
-                "source": false
+                "file": "Tomato Adventure/vignette.png"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "vignette"
             }
           }
         ]
       },
       {
-        "id": "d35f3dbee3c53429",
+        "id": "5798066c2393e732",
         "type": "tabs",
-        "dimension": 60.20286396181385,
+        "dimension": 53.341288782816235,
         "children": [
           {
-            "id": "e3b1de83ff625c38",
+            "id": "d526be3a5ed690a5",
             "type": "leaf",
             "state": {
               "type": "hugo-preview-view",
@@ -112,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/post-2.md",
+                "file": "Tomato Adventure/vignette.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de post-2"
+              "title": "Liens sortants de vignette"
             }
           },
           {
@@ -126,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/post-2.md",
+                "file": "Tomato Adventure/vignette.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de post-2"
+              "title": "Plan de vignette"
             }
           },
           {
@@ -141,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/post-2.md",
+                "file": "Tomato Adventure/vignette.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour post-2"
+              "title": "Rétrolien pour vignette"
             }
           },
           {
@@ -183,7 +181,8 @@
               "title": "Toutes les propriétés"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,17 +197,38 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "acc7bff75f8a0264",
+  "active": "7cc665cca9a21b9e",
   "lastOpenFiles": [
-    "Sans titre 7.base",
-    "Sans titre 6.base",
-    "Sans titre 1.base",
-    "Sans titre 2.base",
-    "Sans titre 4.base",
-    "Sans titre 5.base",
-    "Sans titre 3.base",
-    "Sans titre.base",
-    "posts/Pierre Qui Roule/vignette.png",
+    "Tomato Adventure/tomato.png",
+    "Tomato Adventure/vignette.png",
+    "Tomato Adventure/Sprite-0003.png",
+    "Tomato Adventure/index.fr.md",
+    "Tomato Adventure/gif1.gif",
+    "Tomato Adventure/cover.png",
+    "Tomato Adventure/background.png",
+    "Tomato Adventure/tomato_3.gif",
+    "Tomato Adventure/tomato.p8.png",
+    "Tomato Adventure/tomato1t.png",
+    "Tomato Adventure/tomato2.png",
+    "Suro/index.md",
+    "Suro/suroGif.mov",
+    "Pierre Qui Roule/index.md",
+    "Others/TOUROUL_Victor_WORLD.mp4",
+    "Others/0000-0125.mkv",
+    "Lego Fez/index.md",
+    "Dragon de glace/index.md",
+    "Adieu/index.fr.md",
+    "Boatrone/2023-06-14 23-55-09.mkv",
+    "Boatrone/index.fr.md",
+    "Haunted West/index.fr.md",
+    "Shrooms",
+    "Nouveau dossier",
+    "Tomato Adventure/Sprite-0003.aseprite",
+    "Tomato Adventure",
+    "My cats",
+    "Boatrone",
+    "Haunted West/index.en.md",
+    "Crocodile/index.md",
     "posts/Suro/index.md",
     "posts/Pierre Qui Roule/index.md",
     "posts/Lego Fez/index.md",
@@ -216,27 +236,14 @@
     "posts/Crocodile/index.md",
     "posts/Champognon/index.md",
     "posts/Adieu/index.md",
-    "posts/Champognon/vignette.png",
-    "posts/Adieu/vignette.png",
     "_index.md",
-    "posts/Suro/vignette.png",
-    "posts/Suro",
-    "posts/Haunted West/vignette.png",
-    "posts/Haunted West",
     "posts/Champognon/Sans titre.md",
-    "posts/Champognon",
-    "posts/Crocodile/vignette.png",
-    "posts/Lego Fez/vignette.png",
     "posts/post-2.md",
     "posts/post-3/index.md",
     "categories/projects/_index.md",
     "categories/Projects/_index.md",
     "categories/blog/_index.md",
     "categories/games/_index.md",
-    "categories/Blog/_index.md",
-    "posts/post-3/bryce-canyon.jpg",
-    "categories/Games/_index.md",
-    "posts/post-1.md",
     "Sans titre.canvas"
   ]
 }

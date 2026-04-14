@@ -7,7 +7,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/blog/"
+                href="http://localhost:1313/en/categories/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -15,12 +15,15 @@
                 href="http://localhost:1313/fr/categories/blog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/fr/posts/boatrone/</loc>
+    <lastmod>2023-02-15T09:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/fr/categories/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -33,7 +36,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/games/"
+                href="http://localhost:1313/en/categories/games/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -46,7 +49,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/haunted-west/"
+                href="http://localhost:1313/en/posts/haunted-west/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -54,12 +57,18 @@
                 href="http://localhost:1313/fr/posts/haunted-west/"
                 />
   </url><url>
+    <loc>http://localhost:1313/fr/posts/</loc>
+    <lastmod>2023-02-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/tomato-adventure/</loc>
+    <lastmod>2023-02-15T09:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/fr/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -67,24 +76,35 @@
                 href="http://localhost:1313/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/home/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/home/"
-                />
+    <loc>http://localhost:1313/fr/posts/adieu/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/champognon/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/suro/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/crocodile/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/dragon-de-glace/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/lego-fez/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/posts/pierre-qui-roule/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/categories/projects/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"

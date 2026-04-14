@@ -1,4 +1,6 @@
 {
   "accentColor": "#d54461",
-  "textFontFamily": "Nunito"
+  "textFontFamily": "Nunito",
+  "theme": "moonstone",
+  "cssTheme": ""
 }
