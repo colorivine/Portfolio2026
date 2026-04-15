@@ -1,4 +1,4 @@
-baseURL = 'https://colorivine.github.io/Portfolio2026/'
+baseURL = 'https://colorivine.github.io/'
 
 publishDir = 'docs'
 

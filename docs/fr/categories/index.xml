@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Victor Touroul</title>
-    <link>https://colorivine.github.io/Portfolio2026/fr/categories/</link>
+    <link>https://colorivine.github.io/fr/categories/</link>
     <description>Recent content in Categories on Victor Touroul</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 15 Feb 2023 09:00:00 -0700</lastBuildDate>
-    <atom:link href="https://colorivine.github.io/Portfolio2026/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://colorivine.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://colorivine.github.io/Portfolio2026/fr/categories/blog/</link>
+      <link>https://colorivine.github.io/fr/categories/blog/</link>
       <pubDate>Wed, 15 Feb 2023 09:00:00 -0700</pubDate>
-      <guid>https://colorivine.github.io/Portfolio2026/fr/categories/blog/</guid>
+      <guid>https://colorivine.github.io/fr/categories/blog/</guid>
       <description>&lt;p&gt;Some stuff&lt;/p&gt;</description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://colorivine.github.io/Portfolio2026/fr/categories/games/</link>
+      <link>https://colorivine.github.io/fr/categories/games/</link>
       <pubDate>Wed, 15 Feb 2023 09:00:00 -0700</pubDate>
-      <guid>https://colorivine.github.io/Portfolio2026/fr/categories/games/</guid>
+      <guid>https://colorivine.github.io/fr/categories/games/</guid>
       <description>&lt;p&gt;Games you can play&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://colorivine.github.io/Portfolio2026/fr/categories/projects/</link>
+      <link>https://colorivine.github.io/fr/categories/projects/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>https://colorivine.github.io/Portfolio2026/fr/categories/projects/</guid>
+      <guid>https://colorivine.github.io/fr/categories/projects/</guid>
       <description>&lt;p&gt;Some projects i worked on&lt;/p&gt;</description>
     </item>
   </channel>
