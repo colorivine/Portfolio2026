@@ -6,7 +6,7 @@
       {
         "id": "6813d74ac6f82f4f",
         "type": "tabs",
-        "dimension": 46.658711217183765,
+        "dimension": 41.288782816229116,
         "children": [
           {
             "id": "acc7bff75f8a0264",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "5798066c2393e732",
+        "id": "db74e7853ee659d9",
         "type": "tabs",
-        "dimension": 53.341288782816235,
+        "dimension": 58.711217183770884,
         "children": [
           {
-            "id": "d526be3a5ed690a5",
+            "id": "a044a18bf3e0ae46",
             "type": "leaf",
             "state": {
               "type": "hugo-preview-view",
@@ -197,7 +197,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "7cc665cca9a21b9e",
+  "active": "a044a18bf3e0ae46",
   "lastOpenFiles": [
     "Tomato Adventure/tomato.png",
     "Tomato Adventure/vignette.png",

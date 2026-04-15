@@ -1,5 +1,7 @@
 baseURL = 'https://example.org/'
 
+publishDir = 'docs'
+
 title = 'Victor Touroul'
 
 [languages]

@@ -1,5 +1,7 @@
 baseURL = 'https://example.org/'
 
+publishDir = 'docs'
+
 theme = 'portfolio-theme'
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
@@ -46,3 +48,4 @@ title = 'Victor Touroul'
     wrapStandAloneImageWithinParagraph = false
   [markup.goldmark.parser.attribute]
     block = true
+
