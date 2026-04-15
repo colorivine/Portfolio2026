@@ -2,81 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://colorivine.github.io/en/categories/blog/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/categories/blog/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/categories/blog/"
+                href="https://colorivine.github.io/portfolio/fr/categories/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/categories/blog/"
+                href="https://colorivine.github.io/portfolio/en/categories/blog/"
                 />
   </url><url>
-    <loc>https://colorivine.github.io/en/categories/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/categories/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/categories/"
+                href="https://colorivine.github.io/portfolio/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/categories/"
+                href="https://colorivine.github.io/portfolio/en/categories/"
                 />
   </url><url>
-    <loc>https://colorivine.github.io/en/categories/games/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/categories/games/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/categories/games/"
+                href="https://colorivine.github.io/portfolio/fr/categories/games/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/categories/games/"
+                href="https://colorivine.github.io/portfolio/en/categories/games/"
                 />
   </url><url>
-    <loc>https://colorivine.github.io/en/posts/haunted-west/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/posts/haunted-west/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/posts/haunted-west/"
+                href="https://colorivine.github.io/portfolio/fr/posts/haunted-west/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/posts/haunted-west/"
+                href="https://colorivine.github.io/portfolio/en/posts/haunted-west/"
                 />
   </url><url>
-    <loc>https://colorivine.github.io/en/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/"
+                href="https://colorivine.github.io/portfolio/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/"
+                href="https://colorivine.github.io/portfolio/en/"
                 />
   </url><url>
-    <loc>https://colorivine.github.io/en/tags/</loc>
+    <loc>https://colorivine.github.io/portfolio/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://colorivine.github.io/fr/tags/"
+                href="https://colorivine.github.io/portfolio/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://colorivine.github.io/en/tags/"
+                href="https://colorivine.github.io/portfolio/en/tags/"
                 />
   </url>
 </urlset>
