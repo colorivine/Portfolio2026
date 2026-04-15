@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Victor Touroul</title>
-    <link>http://localhost:1313/en/categories/blog/</link>
+    <link>colorivine.github.io/Portfolio2026/en/categories/blog/</link>
     <description>Recent content in Blog on Victor Touroul</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 15 Feb 2023 09:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="colorivine.github.io/Portfolio2026/en/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Haunted West</title>
-      <link>http://localhost:1313/en/posts/haunted-west/</link>
+      <link>colorivine.github.io/Portfolio2026/en/posts/haunted-west/</link>
       <pubDate>Wed, 15 Feb 2023 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/en/posts/haunted-west/</guid>
+      <guid>colorivine.github.io/Portfolio2026/en/posts/haunted-west/</guid>
       <description>&lt;p&gt;EN&lt;/p&gt;&#xA;&lt;p&gt;Haunted West is a game made in 5 days during a school workshop. It is a top view 4 directional shooter where you must survive against hordes of angry ghosts.&lt;/p&gt;&#xA;&lt;p&gt;Btn play&lt;/p&gt;&#xA;&lt;p&gt;Gallery/carrousel assets&lt;/p&gt;&#xA;&lt;p&gt;It was mase using processing, a javascript based ide mainly used to create procedurally generated art.&#xA;It was mase using processing, a javascript based ide mainly used to create procedurally generated art.&lt;/p&gt;&#xA;&lt;p&gt;It was mase using processing, a javascript based ide mainly used to create procedurally generated art.&lt;/p&gt;</description>
     </item>
   </channel>

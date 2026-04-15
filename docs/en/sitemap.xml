@@ -2,81 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/categories/blog/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/categories/blog/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/blog/"
+                href="colorivine.github.io/Portfolio2026/fr/categories/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/blog/"
+                href="colorivine.github.io/Portfolio2026/en/categories/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/categories/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="colorivine.github.io/Portfolio2026/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="colorivine.github.io/Portfolio2026/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/games/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/categories/games/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/games/"
+                href="colorivine.github.io/Portfolio2026/fr/categories/games/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/games/"
+                href="colorivine.github.io/Portfolio2026/en/categories/games/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/haunted-west/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/posts/haunted-west/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/haunted-west/"
+                href="colorivine.github.io/Portfolio2026/fr/posts/haunted-west/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/haunted-west/"
+                href="colorivine.github.io/Portfolio2026/en/posts/haunted-west/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="colorivine.github.io/Portfolio2026/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="colorivine.github.io/Portfolio2026/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>colorivine.github.io/Portfolio2026/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="colorivine.github.io/Portfolio2026/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="colorivine.github.io/Portfolio2026/en/tags/"
                 />
   </url>
 </urlset>
