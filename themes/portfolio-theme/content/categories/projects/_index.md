@@ -1,8 +1,5 @@
 +++
 Title = "Projects"
-
 +++
 
-
-
-Some projects i worked on
+Projets notables; étudiants, personnels et professionnels.

@@ -6,7 +6,6 @@
       {
         "id": "6813d74ac6f82f4f",
         "type": "tabs",
-        "dimension": 41.288782816229116,
         "children": [
           {
             "id": "acc7bff75f8a0264",
@@ -14,27 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Tomato Adventure/vignette.png"
+                "file": "Haunted West/background.png"
               },
               "icon": "lucide-image",
-              "title": "vignette"
-            }
-          }
-        ]
-      },
-      {
-        "id": "db74e7853ee659d9",
-        "type": "tabs",
-        "dimension": 58.711217183770884,
-        "children": [
-          {
-            "id": "a044a18bf3e0ae46",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Hugo Preview"
+              "title": "background"
             }
           }
         ]
@@ -197,38 +179,41 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "a044a18bf3e0ae46",
+  "active": "acc7bff75f8a0264",
   "lastOpenFiles": [
-    "Tomato Adventure/tomato.png",
-    "Tomato Adventure/vignette.png",
-    "Tomato Adventure/Sprite-0003.png",
+    "Haunted West/vignette.png",
+    "Haunted West/index.fr.md",
+    "Haunted West/bulletLeft.png",
+    "Haunted West/6QGo44.gif",
+    "Haunted West/index.en.md",
+    "Boatrone/index.fr.md",
+    "Boatrone/Jacket.png",
+    "Boatrone/rendu 2.png",
+    "Boatrone/render 1.png",
+    "Boatrone/boue╠ü topo.png",
+    "Boatrone/boat frontvp.png",
+    "Boatrone/boat front vpwf.png",
+    "Boatrone/boat front.png",
+    "Boatrone/boat back.png",
+    "Boatrone/2023-06-14 23-55-09.mkv",
+    "Jusant/index.fr.md",
+    "Dragon de glace/index.md",
+    "Crocodile/index.md",
+    "Adieu/index.fr.md",
+    "Champognon/index.md",
     "Tomato Adventure/index.fr.md",
-    "Tomato Adventure/gif1.gif",
-    "Tomato Adventure/cover.png",
-    "Tomato Adventure/background.png",
-    "Tomato Adventure/tomato_3.gif",
-    "Tomato Adventure/tomato.p8.png",
-    "Tomato Adventure/tomato1t.png",
-    "Tomato Adventure/tomato2.png",
     "Suro/index.md",
     "Suro/suroGif.mov",
     "Pierre Qui Roule/index.md",
     "Others/TOUROUL_Victor_WORLD.mp4",
     "Others/0000-0125.mkv",
     "Lego Fez/index.md",
-    "Dragon de glace/index.md",
-    "Adieu/index.fr.md",
-    "Boatrone/2023-06-14 23-55-09.mkv",
-    "Boatrone/index.fr.md",
-    "Haunted West/index.fr.md",
     "Shrooms",
     "Nouveau dossier",
     "Tomato Adventure/Sprite-0003.aseprite",
     "Tomato Adventure",
     "My cats",
     "Boatrone",
-    "Haunted West/index.en.md",
-    "Crocodile/index.md",
     "posts/Suro/index.md",
     "posts/Pierre Qui Roule/index.md",
     "posts/Lego Fez/index.md",
@@ -242,8 +227,6 @@
     "posts/post-3/index.md",
     "categories/projects/_index.md",
     "categories/Projects/_index.md",
-    "categories/blog/_index.md",
-    "categories/games/_index.md",
     "Sans titre.canvas"
   ]
 }

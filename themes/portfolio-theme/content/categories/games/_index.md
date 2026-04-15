@@ -1,8 +1,5 @@
 +++
 Title = "Games"
-
 +++
 
-
-
-Games you can play
+Jeux auxquels vous pouvez jouer dès maintenant !

@@ -4,16 +4,6 @@
   <url>
     <loc>https://colorivine.github.io/portfolio/fr/categories/blog/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colorivine.github.io/portfolio/en/categories/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://colorivine.github.io/portfolio/fr/categories/blog/"
-                />
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/posts/boatrone/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
@@ -33,29 +23,12 @@
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/categories/games/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colorivine.github.io/portfolio/en/categories/games/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://colorivine.github.io/portfolio/fr/categories/games/"
-                />
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/posts/haunted-west/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://colorivine.github.io/portfolio/en/posts/haunted-west/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://colorivine.github.io/portfolio/fr/posts/haunted-west/"
-                />
+  </url><url>
+    <loc>https://colorivine.github.io/portfolio/fr/posts/jusant/</loc>
+    <lastmod>2023-02-15T09:00:00-07:00</lastmod>
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/posts/</loc>
     <lastmod>2023-02-15T09:00:00-07:00</lastmod>
@@ -77,9 +50,6 @@
                 />
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/posts/adieu/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://colorivine.github.io/portfolio/fr/posts/champognon/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
     <loc>https://colorivine.github.io/portfolio/fr/posts/suro/</loc>

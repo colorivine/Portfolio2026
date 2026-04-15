@@ -1,8 +1,5 @@
 +++
 Title = "Blog"
-
 +++
 
-
-
-Some stuff 
+Toutes les pages présentes sur ce site.
